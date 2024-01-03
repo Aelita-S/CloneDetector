@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Aelita_S_CloneDetector_1704251563110-pr-trigger-input-set
+  identifier: Build_Aelita_S_CloneDetector_1704251563110prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Aelita_S_CloneDetector_1704251563110
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
